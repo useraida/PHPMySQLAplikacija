@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("Pozadina.jpg");
+}
+
+.header {
+	margin: -15px 100px;
+	background-image: url("PozadinaHedera.jpg");
+	color: white;
+	text-align: center;
+	height: 156px;
+}
+
+.footer{
+	border-top: 1px solid black;
+	margin-left:  100px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	text-align: center;
+}
+.TextHeder{
+	margin-left: 100px;
+	margin-top: -100px;
+}
+
+.PomjeriLogo{
+	margin-right: 900px;
+	margin-top: 15px;
+}
+.TextFooter{
+	color: black;
+	margin-top: 50px;
+}
+
+.Naslovna{
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 30px;
+	background-color: grey;
+	height: 400px;
+}
+
+.NaslovnaLijeva{
+	margin-right: 800px;
+	margin-top: 30px;
+	shape-margin: 10px;
+	background-color: rgb(214, 214, 214);
+	height: 400px;
+}
+.nav{ /*za nabrajanje kategorija - licni podaci, oruzje, ratista i dodatno*/
+
+	background-color: rgb(214, 214, 214);
+	text-align: left;
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.nav ul li{
+	padding: 10px;
+	display: block;
+}
+
+.nav ul li:hover{
+	background-color: rgb(155, 155, 155);
+	margin-left: 0px;
+	padding: 10px;
+}
+
+.nav ul li a{
+	text-decoration: none;
+}
+
+.NaslovnaDesna{ /*uredjivanje desne strane kod svih osim licnih podataka*/
+	margin-left: 350px;
+	margin-top: -416px;
+	shape-margin: 10px;
+	height: 400px;
+	background-color: grey;
+	color: white;
+}
+.NaslovnaDesna1{ /*za uredjivanje naslovne desne samo kod licnih podataka*/
+	margin-left: 350px;
+	margin-top: -400px;
+	shape-margin: 10px;
+	height: 400px;
+	background-color: grey;
+	color: white;
+}
+.Text{ /*za uredjivanje naslova unutar ratista, oruzja i dodatno*/
+	text-align: center;
+	color: white;
+	font-family: georgia;
+	font-size: 20px;
+}
+.Text1{ /*za uredjivanje texta unutar ratista,oruzja i dodatno - text koji se nabraja*/
+	text-align: left;
+	color: white;
+	font-family: georgia;
+}
+.PomjeriLogout{
+	margin-left: 900px;
+	margin-top: -80px;
+}
